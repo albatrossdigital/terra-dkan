@@ -8,4 +8,4 @@ hooks:
     
   enable_first: |
     drush {{alias}} site-install dkan --db-url=mysql://drupal:drupal@database/drupal -y
-    drush {{alias}} uli
+    //drush {{alias}} uli
